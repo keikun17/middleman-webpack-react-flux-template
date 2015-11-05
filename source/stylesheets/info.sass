@@ -1,0 +1,90 @@
+info
+  // flex: 1 0 0
+  background-color: #202020
+  width: 255px
+  width: 255px
+  padding-left: 15px
+  padding-right: 15px
+
+  h1
+    margin-left: 20px
+    color: hsla(55, 90%, 52%, 1)
+
+info_wrapper
+  display: flex
+  flex-wrap: wrap
+
+  .info
+    display: inline-block
+    flex: 1 0 0
+    min-width: 188px
+    text-align: center
+    border: 1px solid #424242
+    padding: 5px 10px
+    margin: 20px 20px
+
+  .info-title
+    display: block
+    color: #AFCEEC
+
+  .info-value
+    font-size: 2em
+
+  .info-value-divider
+    display: inline
+    color: #939393
+    font-size: 2.4em
+    padding-left: 7px
+
+  .info-label
+    color: #AFCEEC
+    display: block
+    font-size: .8em
+
+
+.info_item
+  display: flex
+  flex-direction: column
+  height: 80px
+  font-family: Roboto mono, monospace
+  border: 1px solid #424242
+  justify-content: center
+  width: 215px
+  margin: 10px 20px
+
+  .title
+    font-size: 1.4em
+    font-weight: bold
+    color: hsla(210,60%,52%,1)
+    text-align: center
+
+
+
+  span.label
+    font-size: 1.4em
+    display: block
+    font-size: .5em
+    color: hsla(209,60%,52%,1)
+
+  div.divider
+    font-size: 1.4em
+    padding: 0 8px
+    width: 10%
+    text-align: center
+    color: #939393
+
+  .readings
+    display: flex
+    flex-direction: row
+
+    .reading
+      height: 2em
+      font-size: 1.4em
+      width: 45%
+      border: none
+
+      &.left
+        text-align: right
+
+      &.right
+        text-align: left
